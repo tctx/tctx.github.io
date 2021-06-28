@@ -1,0 +1,292 @@
+html, body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+.push-top-20 {
+  margin-top: 20px;
+}
+
+.push-top-30 {
+  margin-top: 30px;
+}
+
+.push-top-50 {
+  margin-top: 50px;
+}
+
+.about-me-text {
+  font-size: 22px;
+}
+
+li {
+  font-size: 22px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/* Pictures */
+
+.leader-card {
+	position: relative;
+  display: inline-block;
+}
+
+.roster-pic-wrap {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.roster-profile-pic {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.tom-pic {
+  background-image: url("../assets/tommy.jpeg")
+}
+
+/* Title */
+
+.title-holder {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.title-center {
+  position: relative;
+}
+
+.position-title {
+	padding-top: 50px;
+  display: inline-block;
+}
+
+.main-title {
+	font-size: 80px;
+	font-weight: bold;
+  background-color: #0096FF;
+  position: relative;
+  width: 700px;
+}
+
+.main-card-holder {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.main-card-style {
+	height: 50px;
+	margin: 0 auto;
+}
+
+/* Buffer for Rows */
+.top-buffer {
+  margin-top: 20px;
+}
+
+/* Footer Styling (Social Links, Copyright Info) */
+
+footer {
+  margin-top: 300px;
+}
+
+.footer-links-wrapper {
+  height: 0px;
+  background-color: #F5F5F5;
+}
+
+.footer-separator {
+  border: 1px solid #2B2B36;
+  width: 80%;
+}
+
+.join-us {
+  color: black;
+  text-shadow: none;
+  font-size: 18px;
+}
+
+.social-buttons {
+  color: black;
+  list-style-type: none;
+  padding: 0px;
+  text-shadow: none;
+}
+
+.social-buttons li {
+  margin-left: 4px;
+  margin-right: 4px;
+  color: black;
+  display: inline-block;
+}
+
+.icon-small:hover {
+  font-size: 26px;
+  color: gray;
+}
+
+.copyright {
+  color: black;
+  text-shadow: none;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+/* Icons */
+.icon-small {
+  font-size: 26px;
+}
+
+.icon-small:hover {
+  font-size: 26px;
+}
+
+.position-banner {
+  position: relative;
+}
+
+.coming-soon-banner {
+  position: absolute;
+  font-size: 7px;
+  background-color: yellow;
+  margin-top: -2px;
+  right: -35px;
+}
+
+/* Social Buttons */
+
+.social-links {
+  margin: 0 auto;
+  width: 900px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: source sans pro,sans-serif;
+  min-height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-links > .angellist-button {
+  background-color: #ccc !important;
+}
+
+.label {
+  margin: 0 auto;
+}
+
+.linkedin-button {
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+  width: 183px;
+  color: white;
+  background-color: #0966C2;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: Normal;
+  border: none;
+  padding: 0 24px;
+  line-height: 27px;
+  text-decoration: none!important;
+  display: inline-flex!important;
+  align-items: center;
+  box-sizing: border-box!important;
+}
+
+.linkedin-button:hover {
+  background-color: #3C99F5;
+  color: white;
+}
+
+.angellist-button {
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+  width: 183px;
+  color: #000!important;
+  background-color: #fff!important;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 0 10px 0 5px;
+  line-height: 27px;
+  text-decoration: none!important;
+  display: inline-flex!important;
+  align-items: center;
+  font-family: helvetica neue,Arial,Helvetica,sans-serif!important;
+  box-sizing: border-box!important;
+}
+
+.angellist-button:hover {
+  background-color: #b3b3b3 !important;
+}
+
+.twitter-button {
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+  width: 183px;
+  color: #fff!important;
+  background-color: #1b95e0!important;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 0 16px;
+  line-height: 18px;
+  text-decoration: none!important;
+  display: inline-flex!important;
+  align-items: center;
+  font-family: helvetica neue,Arial,sans-serif!important;
+  box-sizing: border-box!important;
+}
+
+.twitter-button:hover {
+  background-color: #4EC8FF !important;
+}
+
+footer {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ccc;
+  min-height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Bookshelf Formatting */
+
+.books-holder {
+  width: 100%;
+}
+
+.book-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  clear: both;
+}
+
+.book-record {
+  display: inline;
+}
