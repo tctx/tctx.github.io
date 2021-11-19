@@ -3981,6 +3981,7 @@ textarea.form-control-lg {
 }
 
 .navbar-toggler {
+  border-color: #ddd !important;
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
@@ -4011,6 +4012,27 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.icon-bar {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #888;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
 }
 
 .navbar-nav-scroll {

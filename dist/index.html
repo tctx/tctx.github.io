@@ -27,70 +27,81 @@
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../dist/index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../dist/about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../dist/projects.html">Projects</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Learn</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="../dist/books.html">Bookshelf</a></li>
-                                <li><a class="dropdown-item" href="../dist/newsletters.html">Newsletters</a></li>
-                                <li><a class="dropdown-item" href="../dist/podcasts.html">Podcasts</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="../dist/open-questions.html">Open Questions</a></li>
-                                <!--
-                                <li><a class="dropdown-item" href="#">Crazy Ideas</a></li>
-                                <li><a class="dropdown-item" href="#">Cool People</a></li>
-                                <li><a class="dropdown-item" href="#">Interests</a></li>
-                                <li><a class="dropdown-item" href="#">My Tools</a></li>
-                                -->
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" target="_blank" href="https://openquestions.substack.com/subscribe">My Newsletter <span class="position-banner"><span class="coming-soon-banner">Coming Soon</span><span></a></li>
-                                <li><a class="dropdown-item" href="#">My Podcast<span class="position-banner"><span class="coming-soon-banner">Coming Soon</span><span></a></li>
-                                <li><a class="dropdown-item" href="#">My Courses<span class="position-banner"><span class="coming-soon-banner">Coming Soon</span><span></a></li>
-                                <li><a class="dropdown-item" href="#">My Blog<span class="position-banner"><span class="coming-soon-banner">Coming Soon</span><span></a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" target="_blank" href="https://www.notion.so/List-of-Lists-089d6d145ef14de4a0a9161a31388351">List of Lists</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          <div class="container">
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a class="nav-link active" aria-current="page" href="../dist/index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="../dist/about.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="../dist/projects.html">Projects</a></li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Learn</a>
+                          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="../dist/books.html">Bookshelf</a></li>
+                              <li><a class="dropdown-item" href="../dist/newsletters.html">Newsletters</a></li>
+                              <li><a class="dropdown-item" href="../dist/podcasts.html">Podcasts</a></li>
+                              <li><hr class="dropdown-divider" /></li>
+                              <li><a class="dropdown-item" href="../dist/open-questions.html">Open Questions</a></li>
+                              <!--
+                              <li><a class="dropdown-item" href="#">Crazy Ideas</a></li>
+                              <li><a class="dropdown-item" href="#">Cool People</a></li>
+                              <li><a class="dropdown-item" href="#">Interests</a></li>
+                              <li><a class="dropdown-item" href="#">My Tools</a></li>
+                              -->
+                              <li><hr class="dropdown-divider" /></li>
+                              <li><a class="dropdown-item" target="_blank" href="https://openquestions.substack.com/subscribe">My Newsletter <span class="position-banner"><span class="coming-soon-banner">Coming Soon</span><span></a></li>
+                              <li><a class="dropdown-item" href="#">My Podcast<span class="position-banner"><span class="coming-soon-banner">Coming Soon</span><span></a></li>
+                              <li><a class="dropdown-item" href="#">My Courses<span class="position-banner"><span class="coming-soon-banner">Coming Soon</span><span></a></li>
+                              <li><a class="dropdown-item" href="#">My Blog<span class="position-banner"><span class="coming-soon-banner">Coming Soon</span><span></a></li>
+                              <li><hr class="dropdown-divider" /></li>
+                              <li><a class="dropdown-item" target="_blank" href="https://www.notion.so/List-of-Lists-089d6d145ef14de4a0a9161a31388351">List of Lists</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
         </nav>
         <!-- Page Content-->
         <div class="container">
-          <div class="title-holder">
-            <div class="title-center">
-              <!-- Profile Picture -->
-              <div class="leader-card">
-                <div class="roster-card-wrap">
-                  <div class="roster-pic-wrap">
-                    <div class="roster-profile-pic tom-pic">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="title-holder">
+                <div class="title-center">
+                  <!-- Profile Picture -->
+                  <div class="leader-card">
+                    <div class="roster-card-wrap">
+                      <div class="roster-pic-wrap">
+                        <div class="roster-profile-pic tom-pic">
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <!-- Page Title -->
+                  <div class="position-title box" id="box2">
+                    <div class="main-title">
+                      Tommy Campbell
+                    </div>
+                    <p class="category-subtitle">
+                      I use first principles thinking to build products that change the world for the better.
+                    </p>
                   </div>
                 </div>
               </div>
-              <!-- Page Title -->
-              <div class="position-title box" id="box2">
-                <div class="main-title">
-                  Tommy Campbell
-                </div>
-                <p class="category-subtitle">
-                  I use first principles thinking to build products that change the world for the better.
-                </p>
-              </div>
             </div>
           </div>
-        </div>
 
-        <div class="social-links">
-          <a class="linkedin-button" target="_blank" href="https://linkedin.com/in/tcampbelltx" title="Connect on LinkedIn"><span class="label"><i class="fab fa-linkedin"></i>&nbsp; <b>Link Up With Me</b></span></a>
-          <a class="angellist-button" target="_blank" href="https://angel.co/u/tommy-campbell" title="Find me on AngelList"><span class="label"><i class="fab fa-angellist"></i>&nbsp; <b>AngelList Profile</b></span></a>
-          <a class="twitter-button" target="_blank" class="btn" title="Follow @tcampbelltweets on Twitter" href="https://twitter.com/tcampbelltweets"><span class="label"><i class="fab fa-twitter"></i>&nbsp; <b>@tcampbelltweets</b></span></a>
+          <div class="social-links">
+            <a class="linkedin-button" target="_blank" href="https://linkedin.com/in/tcampbelltx" title="Connect on LinkedIn"><span class="label"><i class="fab fa-linkedin"></i>&nbsp; <b>Link Up With Me</b></span></a>
+            <a class="angellist-button" target="_blank" href="https://angel.co/u/tommy-campbell" title="Find me on AngelList"><span class="label"><i class="fab fa-angellist"></i>&nbsp; <b>AngelList Profile</b></span></a>
+            <a class="twitter-button" target="_blank" class="btn" title="Follow @tcampbelltweets on Twitter" href="https://twitter.com/tcampbelltweets"><span class="label"><i class="fab fa-twitter"></i>&nbsp; <b>@tcampbelltweets</b></span></a>
+          </div>
+
         </div>
 
         <!-- Bootstrap core JS-->

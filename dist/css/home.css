@@ -3,6 +3,109 @@ html, body {
   height: 100%;
 }
 
+/* Responsive */
+
+@media screen and (min-width: 0px) {
+  .position-title {
+  	padding-top: 20px;
+  }
+
+  .main-title {
+    width: 100%;
+    font-size: 55px;
+  }
+
+  .social-links {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .book-image {
+    width: 125px;
+  }
+
+  .projects-holder {
+    display: none;
+  }
+
+  .projects-holder-alt {
+    display: block;
+  }
+
+  .projects-row {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .project-record {
+    margin-bottom: 50px;
+  }
+
+  .footer-holder {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-title {
+    width: 700px;
+    font-size: 80px;
+  }
+
+  .book-image {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .position-title {
+    padding-top: 50px;
+  }
+
+  .social-links {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .footer-holder {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    width: 900px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .social-links {
+    margin: 0 auto;
+    width: 800px;
+  }
+
+  .projects-holder {
+    display: block;
+  }
+
+  .projects-holder-alt {
+    display: none;
+  }
+
+  .projects-row {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .project-record {
+    margin-bottom: 0px;
+  }
+}
+
+
+/* Main */
+
 .push-top-20 {
   margin-top: 20px;
 }
@@ -67,16 +170,13 @@ li {
 }
 
 .position-title {
-	padding-top: 50px;
   display: inline-block;
 }
 
 .main-title {
-	font-size: 80px;
 	font-weight: bold;
   background-color: #0096FF;
   position: relative;
-  width: 700px;
 }
 
 .main-card-holder {
@@ -167,7 +267,6 @@ footer {
 
 .social-links {
   margin: 0 auto;
-  width: 900px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 20px;
@@ -262,12 +361,13 @@ footer {
 
 footer {
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  background-color: #ccc;
+}
+
+.footer-holder {
+  min-height: 130px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #ccc;
-  min-height: 130px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
